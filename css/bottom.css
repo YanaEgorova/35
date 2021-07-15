@@ -1,0 +1,10 @@
+.bottom__wrapper {
+    background-color: var(--second-brand-color);
+}
+.bottom {
+    padding-bottom: 5rem;
+    text-align: center; 
+}
+.bottom .title, .bottom .text {
+    color: var(--third-brand-color);
+}

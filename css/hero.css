@@ -1,0 +1,30 @@
+.hero__wrapper {
+    background-image: url('../img/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.hero {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    line-height: 1;
+    position: relative;
+}
+.hero__title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+        padding-top: 20rem;
+        padding-bottom: 20rem;
+    }
+    .hero__title {
+        font-size: 8rem;
+    }
+    .hero__link {
+        padding: 3rem 4rem;
+        font-size: 1.6rem;
+    }
+}

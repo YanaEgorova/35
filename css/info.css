@@ -1,0 +1,10 @@
+.info {
+    text-align: center;
+}
+.info__item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+
+
+
